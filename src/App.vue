@@ -8,11 +8,16 @@
 </template>
 
 <script>
+
   import AutoInput from './AutoInput.vue'
 
   export default {
     name: 'app',
     components: {AutoInput},
+    /**
+     *
+     * @returns {{items: Array}}
+     */
     data() {
       return {
         items: []
